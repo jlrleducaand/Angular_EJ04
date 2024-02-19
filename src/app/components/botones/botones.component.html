@@ -1,0 +1,8 @@
+
+<!--Pintado de botones tantos com veces repita el bucle del padre-->
+<div class="contenidoBoton mt-3">
+    <p>id:{{boton.id}}/valor:{{boton.valor}}</p>
+    <button type="button" class="btn btn-primary" [disabled]="btnDesactivado"
+            (click)="botonPulsado(boton)">{{ boton.texto }}</button>
+
+</div>
